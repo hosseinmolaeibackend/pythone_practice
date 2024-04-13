@@ -7,7 +7,7 @@ def bubble_sort(obj):
                 temp=obj[j]
                 obj[j]=obj[j+1]
                 obj[j+1]=temp
-    return list1
+    return obj
 
 def partition(arr,low,high):
     i=(low-1)
